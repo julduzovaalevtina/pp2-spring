@@ -1,0 +1,55 @@
+#for
+#3
+for i in range (1,5):
+    for j in range (1,5):
+        print(f"{i} * {j} = {i*j}")
+#2
+words = ["apple", "banana", "cherry", "code", "money"]
+
+for word in words:
+    print(f"'{word}' has {len(word)} letters")
+
+#1
+for i in range (1, 10):
+    if i*i < 10:
+        print(i*i)
+
+list = ['kaz', 'eng', 'rus']
+print(list[0])
+print(list[1])
+print(list[2])
+
+#basic list methods
+#changing elements and slicing
+list = ['kaz', 'eng', 'tr', 'rus']
+list[2] = 'pol'
+print(list)
+list = list[1:3]
+print(list)
+#list traversal
+list = ['kaz', 'eng', 'rus'] 
+for i in list:
+    print (i)
+#Nested list
+list = [[1,2,3], [4,5,6], [7,8,9]]
+print(list[1][2])
+
+#list
+#1
+list = [1, 2, 3, 4, 5]
+sum = sum(list)
+max = max(list)
+min = min(list)
+print(sum, max, min)
+
+#2
+words = ["apple", "banana", "cherry", "date"]
+words[1] = "updated"  
+print(words)
+
+#3
+names = ["Aletina", "KBTU", "Dina", "Jin", "Qwerty"]
+for name in names:
+    if name.startswith("A"):
+        print(name)
+        
